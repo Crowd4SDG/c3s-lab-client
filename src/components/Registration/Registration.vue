@@ -154,7 +154,7 @@ export default {
         this.passwordsValid
       ) {
         this.register({
-          fullname: this.form.fullname,
+          fullname: "c3s_"+this.form.username,
           name: this.form.username,
           email_addr: this.form.email,
           password: this.form.password,
